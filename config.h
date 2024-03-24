@@ -14,7 +14,7 @@ class config
 public:
 	//offsets
 	DWORD64 ClientBase = 0;
-	DWORD64 offset_Tick = 0;//APalPlayerCharacter::Tick
+	DWORD64 offset_Tick = 0x2AE5850;//APalPlayerCharacter::Tick
 	DWORD64 offset_CatchRate = 0x26A1B60; //APalCaptureJudgeObject::ChallengeCapture
 	//check
 	bool bIsInGame = false;
