@@ -25,10 +25,10 @@ typedef unsigned __int64 uint64;
 
 namespace Offsets
 {
-	inline int32 GObjects = 0x087B5200;
-	inline int32 AppendString = 0x02CD8250;
-	inline int32 GNames = 0x02CD26B4;
-	inline int32 ProcessEvent = 0x02E5A3E0;
+	inline int32 GObjects = 0x08813900;
+	inline int32 AppendString = 0x02D1CCD0;
+	inline int32 GNames = 0x00000000;
+	inline int32 ProcessEvent = 0x02E9FC30;
 	inline int32 ProcessEventIdx = 0x0000004C;
 }
 

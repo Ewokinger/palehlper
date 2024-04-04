@@ -46,12 +46,11 @@ class UBP_WorldSecurityLaw_AreaInvasion_C* UBP_WorldSecurityLaw_AreaInvasion_C::
 // class AActor*                      InvasionActor                                                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 // class UPalIndividualCharacterHandle*CriminalHandle                                                   (Parm, OutParm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 // bool                               ReturnValue                                                      (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// bool                               CallFunc_IsPlayerControlActor_ReturnValue                        (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 // class APalCharacter*               K2Node_DynamicCast_AsPal_Character                               (ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 // bool                               K2Node_DynamicCast_bSuccess                                      (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 // bool                               CallFunc_IsValid_ReturnValue                                     (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-bool UBP_WorldSecurityLaw_AreaInvasion_C::Condition(class AActor* InvasionActor, class UPalIndividualCharacterHandle** CriminalHandle, bool CallFunc_IsPlayerControlActor_ReturnValue, class APalCharacter* K2Node_DynamicCast_AsPal_Character, bool K2Node_DynamicCast_bSuccess, bool CallFunc_IsValid_ReturnValue)
+bool UBP_WorldSecurityLaw_AreaInvasion_C::Condition(class AActor* InvasionActor, class UPalIndividualCharacterHandle** CriminalHandle, class APalCharacter* K2Node_DynamicCast_AsPal_Character, bool K2Node_DynamicCast_bSuccess, bool CallFunc_IsValid_ReturnValue)
 {
 	static class UFunction* Func = nullptr;
 
@@ -61,7 +60,6 @@ bool UBP_WorldSecurityLaw_AreaInvasion_C::Condition(class AActor* InvasionActor,
 	Params::UBP_WorldSecurityLaw_AreaInvasion_C_Condition_Params Parms{};
 
 	Parms.InvasionActor = InvasionActor;
-	Parms.CallFunc_IsPlayerControlActor_ReturnValue = CallFunc_IsPlayerControlActor_ReturnValue;
 	Parms.K2Node_DynamicCast_AsPal_Character = K2Node_DynamicCast_AsPal_Character;
 	Parms.K2Node_DynamicCast_bSuccess = K2Node_DynamicCast_bSuccess;
 	Parms.CallFunc_IsValid_ReturnValue = CallFunc_IsValid_ReturnValue;

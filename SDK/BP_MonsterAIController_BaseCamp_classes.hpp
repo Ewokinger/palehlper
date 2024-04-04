@@ -14,7 +14,7 @@ namespace SDK
 class ABP_MonsterAIController_BaseCamp_C : public ABP_MonsterAIControllerBase_C
 {
 public:
-	uint8                                        Pad_466B[0x5];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_4372[0x5];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FPointerToUberGraphFrame              UberGraphFrame;                                    // 0x548(0x8)(ZeroConstructor, Transient, DuplicateTransient)
 	struct FVector                               SpawnedPosition;                                   // 0x550(0x18)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 

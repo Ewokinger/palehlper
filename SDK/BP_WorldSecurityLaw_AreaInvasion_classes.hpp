@@ -19,7 +19,7 @@ public:
 	static class UClass* StaticClass();
 	static class UBP_WorldSecurityLaw_AreaInvasion_C* GetDefaultObj();
 
-	bool Condition(class AActor* InvasionActor, class UPalIndividualCharacterHandle** CriminalHandle, bool CallFunc_IsPlayerControlActor_ReturnValue, class APalCharacter* K2Node_DynamicCast_AsPal_Character, bool K2Node_DynamicCast_bSuccess, bool CallFunc_IsValid_ReturnValue);
+	bool Condition(class AActor* InvasionActor, class UPalIndividualCharacterHandle** CriminalHandle, class APalCharacter* K2Node_DynamicCast_AsPal_Character, bool K2Node_DynamicCast_bSuccess, bool CallFunc_IsValid_ReturnValue);
 	void ExecuteUbergraph_BP_WorldSecurityLaw_AreaInvasion(int32 EntryPoint);
 };
 
