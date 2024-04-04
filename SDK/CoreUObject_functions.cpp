@@ -3,7 +3,7 @@
 // Dumped with Dumper-7!
 
 #include "pch.h"
-#include "../SDK.hpp"
+#include "../sdk.hpp"
 
 namespace SDK
 {

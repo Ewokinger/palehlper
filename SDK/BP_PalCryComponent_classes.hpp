@@ -16,19 +16,19 @@ class UBP_PalCryComponent_C : public UPalCryComponentBase
 public:
 	struct FPointerToUberGraphFrame              UberGraphFrame;                                    // 0xA0(0x8)(ZeroConstructor, Transient, DuplicateTransient)
 	float                                        ElapsedTimeFromLastIdleCry;                        // 0xA8(0x4)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_4177[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_3FA7[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	class APalCharacter*                         CryingCharacter;                                   // 0xB0(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	TMap<class UClass*, enum class E_PalEmo>     ActionEmoMap;                                      // 0xB8(0x50)(Edit, BlueprintVisible, DisableEditOnInstance)
 	TMap<class UClass*, enum class E_PalEmo>     AIActionEmoMap;                                    // 0x108(0x50)(Edit, BlueprintVisible, DisableEditOnInstance)
 	double                                       CoolTImeIdleCry;                                   // 0x158(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	bool                                         IsCryingOnAIAction;                                // 0x160(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_417A[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_3FA8[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	class UClass*                                CryingAIActionClass;                               // 0x168(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	class UClass*                                CurrentAIActionClass;                              // 0x170(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	class UPalIndividualCharacterParameter*      IndividualParameter;                               // 0x178(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	bool                                         HasHungry;                                         // 0x180(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	bool                                         IsDebug;                                           // 0x181(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_417C[0x6];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_3FA9[0x6];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	double                                       GeneralCoolTime;                                   // 0x188(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	class FName                                  LastCryEmoState;                                   // 0x190(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	double                                       DeltaTimeFromLastCry;                              // 0x198(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
